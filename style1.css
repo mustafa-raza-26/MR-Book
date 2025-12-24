@@ -1,0 +1,429 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px solid red; */
+}
+@media (max-width:880px) {
+    .sec1{
+        display: none;
+    }
+}
+@media (max-width:880px) {
+    .sec3{
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .right>.f{
+        display: none;
+    }
+}
+@media (max-width:768px) {
+    .right>.h{
+        float: right;
+    }
+}
+@media (max-width:768px) {
+    .middle>div{
+        display: none;
+    }
+}
+.top{
+    padding-top: 10px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: #ffffff;
+}
+.left{
+    padding-left: 20px;
+}
+.left>a{
+    margin-right: 15px;
+}
+.left>p{
+    padding: 5px;
+    border: 1px solid none;
+    border-radius: 17px;
+    background-color: #eeeeee;
+}
+.left>p>i{
+    padding-left: 5px;
+}
+.log>img{
+    height:50px;
+    width: 40px;
+}
+.left>p>input{
+    padding-left: 10px;
+    border:#eeeeee ;
+    color: #ffffff;
+    background-color: #eeeeee;
+}
+.row>.middle>div>.pro>i{
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #000000;
+}
+.row>.middle>div>.pro>i:hover{
+    cursor: pointer;
+    background-color: #f3f3f3;
+}
+.row>.middle>div>i{
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.row>.middle>div>i:hover{
+    cursor: pointer;
+    background-color: #f3f3f3;
+}
+.row>.right{
+    padding-top: 10px;
+}
+.row>.right>i{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 50px;
+    background-color: #f3f3f3;
+    justify-content: space-between;
+}
+.row>.right>a>i{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 50px;
+    background-color: #f3f3f3;
+    color: #000000;
+    justify-content: space-between;
+}
+.part1{
+    padding-top: 10px;
+    background-color: #f3f3f3;
+}
+.link>span{
+    border-radius: 12px;
+}
+.link>span:hover{
+    cursor: pointer;
+    background-color: #dedede;
+}
+.link>span>i{
+    font-size: 20px;
+}
+.nm{
+    margin-bottom: 5px;
+}
+.nm>img{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.nm>h6{
+    margin-top: 10px;
+}
+
+.ff{
+    margin-bottom: 5px;
+}
+.ff>i{
+    margin-left: 5px;
+    margin-right: 14px;
+    color: rgb(38, 181, 225);
+}
+.ff>h6{
+    margin-top: 10px;
+}
+
+.m{
+    margin-bottom: 5px;
+}
+.m>i{
+    margin-left: 5px;
+    margin-right: 19px;
+    color: rgb(38, 181, 225);
+}
+.m>h6{
+    margin-top: 10px;
+}
+
+.s{
+    margin-bottom: 5px;
+}
+.s>i{
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.s>h6{
+    margin-top: 10px;
+}
+
+.g{
+    margin-bottom: 5px;
+}
+.g>i{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.g>h6{
+    margin-top: 10px;
+}
+
+.v{
+    margin-bottom: 5px;
+}
+.v>i{
+    margin-left: 5px;
+    margin-right: 15px;
+}
+.v>h6{
+    margin-top: 10px;
+}
+
+.mm{
+    margin-bottom: 5px;
+}
+.mm>i{
+    margin-left: 5px;
+    margin-right: 18px;
+}
+.mm>h6{
+    margin-top: 10px;
+}
+
+.sm{
+    margin-bottom: 5px;
+}
+.sm>i{
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 19px;
+    background-color: #c9c9c9;
+}
+.sm>h6{
+    margin-top: 10px;
+}
+
+.link>hr{
+    width: 250px;
+}
+
+.gro>span{
+    border-radius: 12px;
+}
+.gro>span:hover{
+    cursor: pointer;
+    background-color: #dedede;
+}
+
+.wb{
+    margin-bottom: 5px;
+}
+.wb>img{
+    margin-left: 5px;
+    margin-right: 14px;
+}
+.wb>h6{
+    margin-top: 10px;
+}
+.my{
+    width: 140px;
+    height: 220px;
+    border: 4px solid #cecece;
+    border-radius: 12px;
+    box-shadow: 0.7px 0.7px 8px #cecece;
+    cursor: pointer;
+}
+.my>img{
+    width: 100%;
+    height: 78%;
+    border-radius: 12px;
+}
+.my>i{
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 50px;
+    background-color: #0077ff;
+}
+.my:hover{
+    opacity:0.8;
+}
+
+.sr{
+    width: 140px;
+    height: 220px;
+    border: 4px solid #cecece;
+    border-radius: 12px;
+    box-shadow: 0.7px 0.7px 8px #cecece;
+    background-repeat: no-repeat;
+    background-image: url(img/sir\ riz.jpg);
+    cursor: pointer;
+}
+.sr>div{
+    padding-top: 10px;
+    float: left;
+    padding-left: 10px;
+}
+.sr>div>img{
+    border: 2px solid #0077ff;
+    border-radius: 50px;
+    justify-content: left;
+}
+.sr>h6{
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 180px;
+    color: #ffffff;
+}
+.sr:hover{
+    opacity:0.8;
+}
+
+.m1{
+    width: 140px;
+    height: 220px;
+    border: 4px solid #cecece;
+    border-radius: 12px;
+    box-shadow: 0.7px 0.7px 8px #cecece;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(img/m2.jpg);
+    cursor: pointer;
+}
+.m1>div{
+    padding-top: 10px;
+    float: left;
+    padding-left: 10px;
+}
+.m1>div>img{
+    border: 2px solid #0077ff;
+    border-radius: 50px;
+    justify-content: left;
+}
+.m1>h6{
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 180px;
+    color: #ffffff;
+}
+.m1:hover{
+    opacity:0.8;
+}
+.a{
+    width: 140px;
+    height: 220px;
+    border: 4px solid #cecece;
+    border-radius: 12px;
+    box-shadow: 0.7px 0.7px 8px #cecece;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url(img/os1.jpg);
+}
+.a>div{
+    padding-top: 10px;
+    float: left;
+    padding-left: 10px;
+}
+.a>div>img{
+    border: 2px solid #0077ff;
+    border-radius: 50px;
+    justify-content: left;
+}
+.a>h6{
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 180px;
+    color: #ffffff;
+}
+.a:hover{
+    opacity:0.8;
+}
+.scro{
+    padding-top: 30px;
+}
+
+.bio{
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+.bio>p{
+    padding: 10px;
+}
+.bio>p>span{
+    margin-right: 20px;
+}
+.bio>p>input{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.namem{
+    padding:5px ;
+    padding-left: 10px;
+    border: 1px solid #cecece;
+    border-radius: 20px;
+}
+.fo{
+    cursor: pointer;
+}
+.row>.fo>i{
+    padding-right: 10px;
+}
+.row>.pict{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.zohaib>.lin>a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+}
+.zohaib>.lin>a:hover{
+    text-decoration: underline;
+}
+.zohaib>.lin>a>img{
+    margin-right: 8px;
+}
+.zohaib>.lin>p>i{
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.zohaib>div>img{
+    width: 100%;
+}
+.zm>img{
+    margin-top: 10px;
+}
+.comm{
+    padding-top: 20px;
+}
+.jo:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.comm>.jo>i{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: blue;
+}
+.comm>div>span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.comm>.oc:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.cont{
+    padding-top: 10px;
+}
+.cont>div>span>i{
+    padding-right: 10px;
+    cursor: pointer;
+}
