@@ -45,7 +45,7 @@ if (signupBtn) {
             console.log('authError', autherror.message);
         }else{
             console.log('authData', authdata);
-            window.location.href == 'https://mr-book-meta.vercel.app/index.html'
+            window.location.href == 'https://mustafa-raza-26.github.io/MR-Book/index.html'
             alert('user created')
         }
     })
