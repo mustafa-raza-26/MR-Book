@@ -17,43 +17,43 @@ if (loginBtn) {
             localStorage.setItem('login', true);
             alert('You logged in');
             // window.location.href = 'https://mr-book-meta.vercel.app/dashboard.html';
-            window.location.href = '/dashboard.html'
+            window.location.href = 'https://mustafa-raza-26.github.io/MR-Book/dashboard.html'
              
         }
     });
 }
 
 // if (window.location.pathname == 'https://mr-book-meta.vercel.app/index.html') {
-if (window.location.pathname == '/index.html') {
+if (window.location.pathname == 'https://mustafa-raza-26.github.io/MR-Book/index.html') {
     const loggedIn = JSON.parse(localStorage.getItem('login'));
     if (loggedIn) {
         // window.location.href = 'https://mr-book-meta.vercel.app/dashboard.html';
-        window.location.href = '/dashboard.html';
+        window.location.href = 'https://mustafa-raza-26.github.io/MR-Book/dashboard.html';
     }
 }
 
 // if (window.location.pathname == 'https://mr-book-meta.vercel.app/dashboard.html') {
-if (window.location.pathname == '/dashboard.html') {
+if (window.location.pathname == 'https://mustafa-raza-26.github.io/MR-Book/dashboard.html') {
     window.onload = async () => {
         const { data, error } = await client.auth.getSession();
         if (error) {
             console.log('Error fetching session:', error.message);
         } else if (!data.session) {
             // window.location.href = 'https://mr-book-meta.vercel.app/index.html';
-            window.location.href = '/index.html';
+            window.location.href = 'https://mustafa-raza-26.github.io/MR-Book/index.html';
         }
     };
 }
 
 // if (window.location.pathname == 'https://mr-book-meta.vercel.app/profile.html') {
-if (window.location.pathname == '/profile.html') {
+if (window.location.pathname == 'https://mustafa-raza-26.github.io/MR-Book/profile.html') {
     window.onload = async () => {
         const { data, error } = await client.auth.getSession();
         if (error) {
             console.log('Error fetching session:', error.message);
         } else if (!data.session) {
             // window.location.href = 'https://mr-book-meta.vercel.app/index.html';
-            window.location.href = '/index.html';
+            window.location.href = 'https://mustafa-raza-26.github.io/MR-Book/index.html';
         }
         if (data.session) {
             let id = data.session.user.user_metadata.first_name;
@@ -66,6 +66,6 @@ if (logOut) {
     logOut.addEventListener('click', async () => {
         localStorage.removeItem('login');
         // window.location.href = 'https://mr-book-meta.vercel.app/index.html';
-        window.location.href = '/index.html';
+        window.location.href = 'https://mustafa-raza-26.github.io/MR-Book/index.html';
     });
 }
