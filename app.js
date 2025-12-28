@@ -45,7 +45,7 @@ if (signupBtn) {
             console.log('authError', autherror.message);
         }else{
             console.log('authData', authdata);
-            window.location.href == '/index.html'
+            window.location.href == 'https://mr-book-meta.vercel.app/index.html'
             alert('user created')
         }
     })
