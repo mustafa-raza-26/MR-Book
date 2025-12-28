@@ -16,36 +16,36 @@ if (loginBtn) {
             console.log('dataLogin', data);
             localStorage.setItem('login', true);
             alert('You logged in');
-            window.location.href = '/dashboard.html';
+            window.location.href = 'https://mustafa-raza-26.github.io/dashboard.html';
         }
     });
 }
 
-if (window.location.pathname == '/index.html') {
+if (window.location.pathname == 'https://mustafa-raza-26.github.io/index.html') {
     const loggedIn = JSON.parse(localStorage.getItem('login'));
     if (loggedIn) {
-        window.location.href = '/dashboard.html';
+        window.location.href = 'https://mustafa-raza-26.github.io/dashboard.html';
     }
 }
 
-if (window.location.pathname == '/dashboard.html') {
+if (window.location.pathname == 'https://mustafa-raza-26.github.io/dashboard.html') {
     window.onload = async () => {
         const { data, error } = await client.auth.getSession();
         if (error) {
             console.log('Error fetching session:', error.message);
         } else if (!data.session) {
-            window.location.href = '/index.html';
+            window.location.href = 'https://mustafa-raza-26.github.io/index.html';
         }
     };
 }
 
-if (window.location.pathname == '/profile.html') {
+if (window.location.pathname == 'https://mustafa-raza-26.github.io/profile.html') {
     window.onload = async () => {
         const { data, error } = await client.auth.getSession();
         if (error) {
             console.log('Error fetching session:', error.message);
         } else if (!data.session) {
-            window.location.href = '/index.html';
+            window.location.href = 'https://mustafa-raza-26.github.io/index.html';
         }
         if (data.session) {
             let id = data.session.user.user_metadata.first_name;
@@ -57,6 +57,6 @@ if (window.location.pathname == '/profile.html') {
 if (logOut) {
     logOut.addEventListener('click', async () => {
         localStorage.removeItem('login');
-        window.location.href = '/index.html'; 
+        window.location.href = 'https://mustafa-raza-26.github.io/index.html'; 
     });
 }
