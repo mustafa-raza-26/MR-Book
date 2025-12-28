@@ -21,7 +21,7 @@ if (loginBtn) {
     });
 }
 
-if (window.location.pathname == '/index.html') {
+if (window.location.pathname == 'https://mr-book-meta.vercel.app/index.html') {
     const loggedIn = JSON.parse(localStorage.getItem('login'));
     if (loggedIn) {
         window.location.href = 'https://mr-book-meta.vercel.app/dashboard.html';
